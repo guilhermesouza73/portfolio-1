@@ -1,0 +1,97 @@
+/* INTRODUÇÃO */
+
+.introducao-bg {
+    background: var(--cor-12);
+    color: var(--cor-0);
+    box-shadow: inset 0 -120px var(--cor-0);
+}
+
+.introducao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 40px;
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 20px 0 20px;
+}
+
+.introducao-conteudo {
+    align-self: flex-end;
+    padding-bottom: 200px;
+}
+
+.introducao img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.introducao h1 {
+    margin-bottom: 32px;
+}
+
+.introducao p {
+    margin-bottom: 20px;
+}
+
+.introducao p {
+    color: var(--cor-5);
+}
+
+.introducao-conteudo span {
+    color: var(--cor-p1);
+}
+
+.introducao a {
+    color: var(--cor-p5);
+}
+
+
+@media (max-width: 1200px) {
+    .btn {
+        padding: 12px 24px;
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width: 600px) {
+
+    .introducao-bg {
+        background: var(--cor-11);
+        padding-top: 30px;
+        box-shadow: inset 0 -60px var(--cor-0);
+    }
+
+    .introducao {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .btn-container {
+        text-align: center;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .introducao-conteudo {
+        padding-bottom: 0px;
+    }
+
+    .introducao img {
+        height: 300px;
+        width: 100%;
+    }
+}
