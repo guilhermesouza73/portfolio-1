@@ -44,6 +44,7 @@ body {
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 1.25;
+    text-transform: uppercase;
 }
 
 .font-1-m {
@@ -60,6 +61,7 @@ body {
     font-weight: 600;
     font-size: 1.125rem;
     line-height: 1.35;
+    text-transform: uppercase;
 }
 
 .font-2-m {

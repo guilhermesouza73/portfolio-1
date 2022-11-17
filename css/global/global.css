@@ -153,3 +153,7 @@ p,
 a {
     display: inline-block;
 }
+
+img[src$=".jpg"] {
+    border-radius: 4px;
+}

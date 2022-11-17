@@ -2,12 +2,20 @@
 
 /* GLOBAL */
 @import "./global/global.css";
-@import "./global/header.css";
-@import "./utilidades/tipografia.css";
-@import "./utilidades/cores.css";
 
 /* COMPONENTES */
 @import "./utilidades/componentes.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/cores.css";
+
+/* HEADER */
+@import "./global/header.css";
 
 /* HOME */
 @import "./home/introducao.css";
+@import "./home/tecnologia.css";
+@import "./home/parceiros.css";
+
+/* BICICLETAS LISTA */
+
+@import './bicicletas/bicicletas-lista.css'
