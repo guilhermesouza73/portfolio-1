@@ -4,6 +4,7 @@
 
 .parceiros h2 {
     margin-bottom: 60px;
+    padding-left: 20px;
 }
 
 .parceiros ul {
@@ -33,9 +34,14 @@
     border-top: 2px solid var(--cor-2);
 }
 
+
 @media (max-width:800px) {
     .parceiros {
         padding-bottom: 60px;
+    }
+
+    .parceiros li {
+        padding: 20px;
     }
 
     .parceiros h2 {

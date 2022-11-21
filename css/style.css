@@ -15,7 +15,14 @@
 @import "./home/introducao.css";
 @import "./home/tecnologia.css";
 @import "./home/parceiros.css";
+@import "./home/depoimento.css";
+@import "./global/footer.css";
 
 /* BICICLETAS LISTA */
+@import './bicicletas/bicicletas-lista.css';
 
-@import './bicicletas/bicicletas-lista.css'
+/* SEGUROS */
+@import './seguros/seguros.css';
+
+/* Termos */
+@import './termos/termos.css';
