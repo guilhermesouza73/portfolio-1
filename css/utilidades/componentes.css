@@ -1,117 +1,120 @@
 /* Botão */
 .btn {
-    padding: 16px 32px;
-    background: linear-gradient(#FFBF00, #F2A50C);
-    border-radius: 5px;
-    color: #000;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 1.33;
-    text-transform: uppercase;
-    max-width: max-content;
-    border: none;
-    cursor: pointer;
+  padding: 16px 32px;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  border-radius: 5px;
+  color: #000;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .btn:hover {
-    background: linear-gradient(#FFB60d, #e59317);
+  background: linear-gradient(#ffb60d, #e59317);
 }
 
 .btn2 {
-    padding: 16px 32px;
-    background: var(--cor-10);
-    border-radius: 5px;
-    color: var(--cor-2);
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 1.33;
-    text-transform: uppercase;
-    max-width: max-content;
-    border: none;
-    cursor: pointer;
+  padding: 16px 32px;
+  background: var(--cor-10);
+  border-radius: 5px;
+  color: var(--cor-2);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .btn2:hover {
-    background: var(--cor-9);
+  background: var(--cor-9);
 }
 
 .btn-seta {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .btn-seta::after {
-    content: '';
-    display: inline-block;
-    width: 18px;
-    height: 10px;
-    margin-left: 12px;
-    background: url(../../img/icones/seta.svg);
-    transition: transform 0.2s;
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url(../../img/icones/seta.svg);
+  transition: transform 0.2s;
 }
 
 .btn-seta:hover::after {
-    transform: translateX(4px);
+  transform: translateX(4px);
 }
 
 /* Container */
 
 .container {
-    max-width: 1200px;
-    padding: 0 20px;
-    box-sizing: border-box;
-    margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
 
 /* LINK */
 
 .link {
-    display: inline-block;
-    color: var(--cor-p1);
-    font: 500 1.5rem/1.5 'Poppins', sans-serif;
-    text-transform: uppercase;
+  display: inline-block;
+  color: var(--cor-p1);
+  font: 500 1.5rem/1.5 "Poppins", sans-serif;
+  text-transform: uppercase;
 }
 
 .link::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 4px;
-    background-color: currentColor;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: currentColor;
 }
 
 .link:hover {
-    color: var(--cor-0);
+  color: var(--cor-0);
 }
-
 
 /* TÍTULOS INTERNOS */
 
 .titulo-bg {
-    background-color: var(--cor-11);
-    padding-top: 60px;
-    padding-bottom: 60px;
+  background-color: var(--cor-11);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.titulo {
+  background: url("../../img/dec/top-right.svg") no-repeat top right 20px;
 }
 
 .titulo p {
-    margin-bottom: 4px;
+  margin-bottom: 4px;
 }
 
-@media (max-width:800px) {
-    .titulo-bg {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 
-    .titulo p {
-        font-size: 1rem;
-        text-transform: lowercase;
-        font-weight: 400;
-    }
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
 }
