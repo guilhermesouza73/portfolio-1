@@ -8,6 +8,7 @@
 @import "./utilidades/tipografia.css";
 @import "./utilidades/cores.css";
 @import "./utilidades/formulario.css";
+@import "./utilidades/animacao.css";
 
 /* HEADER */
 @import "./global/header.css";
@@ -20,24 +21,24 @@
 @import "./global/footer.css";
 
 /* BICICLETAS LISTA */
-@import './bicicletas/bicicletas-lista.css';
-@import './bicicletas/bicicletas.css';
+@import "./bicicletas/bicicletas-lista.css";
+@import "./bicicletas/bicicletas.css";
 
 /* BICICLETAS PAG BICICLETAS */
-@import './bicicleta/bicicleta.css';
-@import './bicicleta/seguro.css';
+@import "./bicicleta/bicicleta.css";
+@import "./bicicleta/seguro.css";
 
 /* CONTATO */
-@import './contato/contato.css';
-@import './contato/lojas.css';
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
 
 /* SEGUROS */
-@import './seguros/seguros.css';
-@import './seguros/perguntas.css';
-@import './seguros/vantagens.css';
+@import "./seguros/seguros.css";
+@import "./seguros/perguntas.css";
+@import "./seguros/vantagens.css";
 
 /* Termos */
-@import './termos/termos.css';
+@import "./termos/termos.css";
 
 /* Orçamento */
-@import './orcamento/orcamento.css';
+@import "./orcamento/orcamento.css";
